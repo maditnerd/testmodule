@@ -1,6 +1,8 @@
-| /do/testmodule/install   |                        |
-|:-------------------------|:-----------------------|
-| Info                     | [alpha] [undocumented] |
+| /do/testmodule/install   |                              |
+|:-------------------------|:-----------------------------|
+| Description              | This script install mymodule |
+| Example                  | /do/testmodule/install       |
+| Info                     | [beta]                       |
 
 | /do/testmodule/settings   |                        |
 |:--------------------------|:-----------------------|

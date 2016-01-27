@@ -1,2 +1,11 @@
 #!/bin/bash
-echo "install"
+
+if [ $# -ge 1 ] || [[ $1 == "--help" ]] || [ $(id -u) -ne 0 ];then
+	/show/messagebox "$0"
+	/show/info '[beta]'
+	/show/usageDescription "This script install mymodule"
+	/show/usage "$0"
+	/show/example "$0"
+else
+	echo "install"
+fi
